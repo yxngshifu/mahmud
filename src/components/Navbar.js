@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo11 from '../assets/logo11.png';
 
+
 const DropdownMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -20,31 +21,31 @@ const DropdownMenu = () => {
       onMouseEnter={openDropdown}
       onMouseLeave={closeDropdown}
     >
-      <button className="p-4 hover:text-[#CDA233] focus:outline-none">Our Talent</button>
+      <button className="p-4 hover:text-[#CDA233] focus:outline-none">Our Talents</button>
       {isOpen && (
         <div className="absolute z-10 mt-2 bg-white border rounded-md shadow-md text-[#adb5bd]">
           <ul>
             <li className="p-2 hover:bg-[#CDA233] ">
-              <Link to="/principal" onClick={closeDropdown}>
+              <Link to="/ourtalents">
                 Principal Partner
               </Link>
             </li>
             <li className="p-2 hover:bg-[#CDA233] ">
-              <Link to="/talent/partners" onClick={closeDropdown}>
+              <Link to="/okechukwu" onClick={closeDropdown}>
                 Partners
               </Link>
             </li>
             <li className="p-2 hover:bg-[#CDA233] ">
-              <Link to="/talent/heads-of-department" onClick={closeDropdown}>
+              <Link to="/hod" onClick={closeDropdown}>
                 Head of Department
               </Link>
             </li>
              <li className="p-2 hover:bg-[#CDA233] ">
-              <Link to="/talent/heads-of-department" onClick={closeDropdown}>
+              <Link to="/seniorcounsel" onClick={closeDropdown}>
                 Senior Counsel
               </Link>
             </li> <li className="p-2 hover:bg-[#CDA233] ">
-              <Link to="/talent/heads-of-department" onClick={closeDropdown}>
+              <Link to="/counsel" onClick={closeDropdown}>
                 Counsel
               </Link>
             </li>

@@ -11,8 +11,7 @@ function About() {
   return (
    <div className='font-Montserrat'>
           <Navbar/>
-       
-        <div className="  flex justify-between items-center bg-opacity-90 h-24 max-w-[1240px] mx-auto px-4 text-[#FFFFFF] bg-black font-bold text-4xl ">
+        <div className=" flex justify-between items-center bg-opacity-90 h-24 max-w-[1240px] mx-auto px-4 text-[#FFFFFF] bg-black font-bold text-4xl ">
       <h1 className='py-10 px-60'>
         About Us</h1>
         </div>
@@ -39,7 +38,7 @@ function About() {
             </div>
          </div>
          <div>
-            <h1>Company History</h1>
+            <h1 className='px-20  mx-20 font-bold text-2xl'>Company History</h1>
          </div>
 
          <div className='py-20 px-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0   text-black'>
@@ -66,25 +65,62 @@ function About() {
             <div><img className="w-[350px] mx-auto my-4 " src={woman2} alt="/" /></div>
               <div className='px-20' >
             <h1 className='font-bold text-2xl'>Our Values</h1>
-            <h3 >Integrity</h3>
-            <h3 >Competence</h3>
-            <h3 >Diligence</h3>
-            <h3 >Professionalism</h3>
+            <div>
+            <h3 className='font-bold text-2xl mb-4 py-4'>Integrity</h3>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+               quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi
+               vestibulum leo, ac luctus arcu 
+               </p>
+            </div>
+            <div>
+            <h3 className='font-bold text-2xl mb-4 py-4' >Competence</h3>
+            <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                  quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi
+                   vestibulum leo, ac luctus arcu 
+                  </p>
+                  </div>
+                         <div>
+                             <h3 className='font-bold text-2xl mb-4 py-4' >Diligence</h3>
+                             <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                  quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi
+                   vestibulum leo, ac luctus arcu 
+                  </p>
+                  </div>
+                  <div>
+                             <h3 className='font-bold text-2xl mb-4 py-4' >Professionalism</h3>
+                            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                 quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi
+                  vestibulum leo, ac luctus arcu 
+                 </p>
+                 </div>
             </div>
          </div>
-       <div className='py-5 px-10 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-0   text-center text-black'>
+       <div className='py-10 px-20 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-0   text-center text-black'>
          <div>
         <h1 className='font-bold'> Cases Dismissed</h1>
-        </div>
-        <div>
-        <h1 className='font-bold'>Cases won</h1>
-        </div>
+        <p1 className='gap-1'>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi vestibulum leo, ac luctus arcu 
+                 </p1>
+                         </div>
+                         <div>
+                         <h1 className='font-bold'>Cases won</h1>
+                         <p1>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi vestibulum leo, ac luctus arcu 
+                 </p1>
+                         </div>
         <div>
         <h1 className='font-bold'>Awards</h1>
-        </div>
-       </div>
-       <Newsletter/>
-       <Footer/>
+        <p1>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi vestibulum leo, ac luctus arcu 
+              </p1>
+                      </div>
+                     </div>
+                     <Newsletter/>
+                     <Footer/>
     </div>
   )
 }
