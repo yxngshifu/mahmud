@@ -16,21 +16,21 @@ function Home() {
         <Hero/>
         <div className=' grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0  bg-[#FFF1C6] text-black'>
             <h1 className='font-bold text-2xl py-20 px-40 '>About The Firm.</h1>
-            <p className='py-20 px-30'>M.A. Mahmud SAN & Co is a leading cross border law firm dedicated to providing tailored legal services, creating timely and efficient legal solutions. 
+            <p className='py-20 px-40 text-justify'>M.A. Mahmud SAN & Co is a leading cross border law firm dedicated to providing tailored legal services, creating timely and efficient legal solutions. 
              Our team of professionals are characterised by their scholastic background from reputable Universities and possess excellent reputation for quality service delivery and strict adherence ethical standards.
             <div className='font-bold'> <Link to="about">Read more</Link></div>
              </p>
               
         </div>
-        <div>
-            <h1 className='px-40 font-bold text-xl'> Our Practice Areas  <Link to="practice" className='font-bold   px-40 text-sm'>Read more </Link> </h1>
+        <div className='px-40'>
+            <h1 className='px-40 font-bold py-20 text-4xl'> Our Practice Areas  <Link to="practice" className='font-bold   px-40 text-sm'>Read more </Link> </h1>
             <div className='w-full flex justify-between items-center  md:flex-row flex-col  border-t-[1px] border-t-[#3F3E45]'></div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-20 px-40"> 
             <div >
         <h2 class="text-l font-bold mb-4">01 General Litigation</h2>
         <p className='text-[#5C5A5A]'>At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.</p>
     </div>
-    <div>
+    <div > 
         <h2 class="text-l font-bold mb-4">02 Energy Law</h2>
         <p className='text-[#5C5A5A]'>Discover unparalleled legal support in the energy sector at M.A Mahmud SAN & Co.</p> 
          </div>
@@ -70,7 +70,7 @@ function Home() {
          
         </div>
         
-        <div  className='py-20 px-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0  bg-[#FFF1C6] text-black'>
+        <div  className='py-20 lg:px-80 grid  text-justify grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0  bg-[#FFF1C6] text-black'>
             <div>
             <h1 className='font-bold py-10'>Why M.A Mahmud & Co.</h1>
             <p>Our commitment to excellence, client-focused approach, andaproven track record set us apart as your premier legal partner.</p>

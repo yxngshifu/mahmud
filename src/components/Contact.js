@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import building from '../assets/building.png'
 import Newsletter from './Newsletter';
+import Footer from './Footer';
 
 function Contact() {
   const [status, setStatus] = useState("Submit");
@@ -47,12 +48,12 @@ function Contact() {
     <div >
       <Navbar />
       <div className='font-Montserrat'>
-        <div className="  flex justify-between items-center bg-opacity-90 h-24 max-w-[1240px] mx-auto px-4 text-[#FFFFFF] bg-black font-bold text-4xl ">
-      <h1 className='py-10 px-60'>
+        <div className="  flex justify-between items-center bg-opacity-90 h-24 max-w-full mx-auto px-4 text-[#FFFFFF] bg-black font-bold text-4xl ">
+      <h1 className='py-10 lg:px-80'>
         Contact Us</h1>
         </div>
      <div className='py-20 px-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0   text-black'>
-      <div className='py-20 px-20'>
+      <div className='py-20 px-40'>
         <h2 className='font-semibold text-2xl'>Make An Enquiry?</h2>
         <p className='py-10'>M.A. Mahmud SAN & Co is a leading cross border law firm dedicated to providing tailored legal services,
           creating timely and efficient legal solutions. </p>
@@ -117,12 +118,13 @@ function Contact() {
             <h1 className='text-xl py-5 '>Email</h1>
             <p className='text-[#5C5A5A]'>rahusachamberssan@gmail.com rahusachambers@yahoo.com</p>
           </div>
-           <div><img className="w-[350px] mx-auto my-4 py-10 " src={building} alt="/" /></div>
+           <div><img className="w-[350px] py-20" src={building} alt="/" /></div>
         </div>
         <div>
         </div>
       </div>
       <Newsletter/>
+      <Footer/>
       </div>
       </div>
    

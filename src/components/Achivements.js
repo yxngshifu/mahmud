@@ -25,11 +25,12 @@ function Achivements() {
 </div>
 
 
-      <div>
+      <div className='lg:px-40 text-justify'>
         <h2 className='font-bold text-2xl py-10'>Achievements</h2>
-        <p className='text-[#5C5A5A]'>
+        <p className=''>
           M.A. Mahmud SAN & Co is a leading cross border law firm dedicated to providing tailored legal services, creating timely and efficient legal solutions. 
-
+           </p>
+           <p>
            Our team of professionals are characterised by their scholastic background from reputable Universities and possess excellent reputation for quality service delivery and strict adherence ethical standards.
 
         </p>

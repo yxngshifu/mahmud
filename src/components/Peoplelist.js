@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Peoplelist = () => {
   return (
     <div>
-         <h1 className='px-20'> Our Practice Areas  <Link to="talent" className='font-bold   px-80'>Read more</Link> </h1>
+         <h1 className='px-20'> Our Talent  <Link to="talent" className='font-bold   px-80'>Read more</Link> </h1>
     
     <div className="flex flex-row"> 
     

@@ -14,20 +14,22 @@ function Footer() {
         <img className="w-[120px] mx-8  flex items-center " src={logo11} alt="/" />				
           </Link>
 				</div>
-				
+			
+					 <div className='w-full  flex justify-between items-center  md:flex-row flex-col  border-t-[1px] border-t-[#3F3E45]'>
 				<div className="p-5 font-bold py-40 px-10 ">
+					
 					<ul>
 						<p className=" text-2xl  pb-8">Quick Link</p>
-						<li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className=" text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 							NEWS
 						</li>
-						<li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className=" text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 							OUR TALENT
 						</li>
-						<li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className=" text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 							ABOUT US
 						</li>
-						<li className="text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className="text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 							NEWSLETTERS
 						</li>
             <li className="text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
@@ -39,47 +41,49 @@ function Footer() {
 					<div className="py-40 px-10">
 					<ul>
 						<p className="font-bold text-2xl pb-8">Practice Area</p>
-						<li className="text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className="text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 							General Litigation
 						</li>
-						<li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className=" text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 							Energy Law
 						</li>
-						<li className="text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className="text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 						Financial Services
 						</li>
-						<li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className=" text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 							Human Right 
 						</li>
-						<li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className=" text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 							Intellectual Property
 						</li>
 					</ul>
 					</div>
 				
-				<div className="p-5 py-40 px-10">
-					<ul className="py-10">
+				<div className="py-40 px-10">
+					<ul className="">
 						<p className="font-bold text-2xl pb-8">Contact Us</p>
 						<li className="text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
 							No. 9 Bozoum Close, Off Adetokunbo Ademola, Behind AP Plaza,  Wuse II,  Abuja.
 						</li>
-						<li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+						<li className=" text-md pb-6 font-semibold hover:text-blue-600 cursor-pointer">
 							 (+234) 8033 1171 97
 						</li>
-						<li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							rahusachamberssan@gmail.com rahusachambers@yahoo.com
+						<li className=" text-md pb-5 font-semibold hover:text-blue-600 cursor-pointer">
+							rahusachamberssan@gmail.com 
 						</li>
 						<li className="text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Downloads & Resources
+						rahusachambers@yahoo.com
 						</li>
 						<li className="text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
 							Videos
 						</li>
 					</ul>
 				</div>
+				</div>
 			</div>
-			<div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
-				<h1 className=" text-gray-800 font-semibold">
+			<div className="flex flex-col justify-center items-center px-80 mr-20 mb-20 text-center  p-5 bg-gray-50">
+				 <div className='w-full flex justify-between items-center  md:flex-row flex-col  border-t-[1px] border-t-[#3F3E45]'></div>
+				<h1 className=" text-gray-800   py-20 font-semibold">
 					© 2024 Asteria. All rights reserved 
 					
 				</h1>

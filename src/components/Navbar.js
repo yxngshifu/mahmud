@@ -58,7 +58,7 @@ const DropdownMenu = () => {
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center bg-opacity-90 h-24 max-w-[1240px] mx-auto px-4 text-[#adb5bd]">
+    <div className="flex justify-between items-center bg-opacity-90 h-24 max-w-full mx-auto  text-[#adb5bd]">
       <Link to="/" className="mt-16">
         <img className="w-[120px] mx-8 my-4 flex items-center " src={logo11} alt="/" />
       </Link>
